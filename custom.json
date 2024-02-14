@@ -1,0 +1,115 @@
+
+{
+	"Kungfu": {
+		"text":"You are standing at the Kungfu theme park.\nYou see many people who are excited.",
+		"moves": {
+			"north":"Special Effects Show",
+			"east":"King Kong",
+			"west":"DespicableMe Minion Mayhem",
+			"south":"Water World"
+		},
+        "objects":[{
+            "name": "Dumpling",
+            "type": "normal"
+        }]
+	},
+	"King Kong" : {
+		"text":"You are sitting at the chair to watch the 3D movie in King Kong theme park.\nYAY! The play is starting in a minute.",
+		"moves" : {
+			"left":"The Wizarding World Harry Potter",
+			"right":"Studio Tour"
+		}
+
+	},
+    "Studio Tour" : {
+        "text": "Now, you are ready to take a tour of the universal studios using tram in Studio Tour.\nLet's go!",
+        "moves" : {
+            "left":"King Kong",
+            "right":"The Simpson's Ride",
+            "straight":"Special Effects Show"
+        }
+    },
+    "The Simpson's Ride" : {
+        "text": "You are standing in the line for the ride in The Simpson's Ride. \nThere are so many people. It must be fun.",
+        "moves" : {
+            "west":"Special Effects Show",
+            "south":"Studio Tour"
+        },
+        "objects":[{
+            "name": "Donut",
+            "type": "normal"
+        }]
+    },
+    "Special Effects Show" : {
+        "text": "You are sitting in the chair to watch the show at the Special Effects Show.\nThe show is going to be fantastic.",
+        "moves" : {
+            "west":"Revenge of the Mummy The Ride",
+            "south":"Kungfu"
+        }
+    },
+    "Revenge of the Mummy The Ride" : {
+        "text": "You are standing beside the mummy, waiting in the line, in Revenge of the Mummy The Ride. \nSpooky! I already have a goosebump.",
+        "moves" : {
+            "straight":"Jurassic World",
+            "225 degrees":"DespicableMe Minion Mayhem"
+        }
+    },
+    "Jurassic World" : {
+        "text": "You arrived at the Jurassic World.\nDon't you feel like you are inside the movie?",
+        "moves" : {
+            "straight":"King Kong",
+            "south":"DespicableMe Minion Mayhem"
+        }
+    },
+    "DespicableMe Minion Mayhem" : {
+        "text": "You are sitting on the ride after waiting in the line for an hour in DespicableMe Minion Mayhem. \n Can't wait to see Minions!",
+        "moves" : {
+            "north":"Jurassic World",
+            "south":"Universal Globe"
+        },
+        "objects":[{
+            "name": "Banana",
+            "type": "normal"
+        }]
+    },
+    "Water World" : {
+        "text": "You are standing in the exit of the Water World.\nYou are all wet!",
+        "moves" : {
+            "left":"Universal Globe",
+            "140 degrees":"The Wizarding World Harry Potter"
+        }
+    },
+    "The Wizarding World Harry Potter" : {
+        "text": "You are standing in the line to buy the butter beer in The Wizarding World Harry Potter.\nYummy!",
+        "moves" : {
+            "210 degrees":"Water World",
+            "225 degrees":"City Walk"
+        },
+        "objects":[{
+            "name": "Harry's wand",
+            "type": "special"
+        },
+        {
+            "name": "Snake",
+            "type": "normal"
+        }
+    ]
+    },
+    "City Walk" : {
+        "text": "You standing in the City Walk.\nYou are all wet!",
+        "moves" : {
+            "walk 1 mile":"Water World",
+            "walk 4 miles":"Universal Globe"
+        },
+        "objects":[{
+            "name": "shoes",
+            "type": "special"
+        }]
+    },
+    "Universal Globe" : {
+        "text": "You win!!",
+        "moves": {
+
+        }
+    }
+}
